@@ -1,0 +1,8 @@
+#N canvas 251 400 1600 817 12;
+#X obj 152 318 outlet;
+#X floatatom 152 275 5 0 0 0 - - - 0;
+#X obj 152 127 hradio 25 1 0 4 empty empty empty 0 -10 0 12 #ffffff #ff0400 #ff0400 0;
+#X text 155 106 A | B | C | D;
+#X connect 1 0 0 0;
+#X connect 2 0 1 0;
+#X coords 0 -1 1 1 200 60 2 100 100;
